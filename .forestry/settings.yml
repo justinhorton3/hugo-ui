@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: testing
+  label: Testing
+  match: "**/*"
+- type: document
   path: README-FORESTRY.md
   label: Help
   read_only: true
