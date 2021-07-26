@@ -7,7 +7,6 @@ sections:
 - type: document
   path: testing
   label: Testing
-  match: "**/*"
 - type: document
   path: README-FORESTRY.md
   label: Help
@@ -17,6 +16,8 @@ sections:
   label: Pages
   create: all
   match: "*"
+  templates:
+  - 3-column-text
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
